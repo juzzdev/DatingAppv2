@@ -1,2 +1,2 @@
 # DatingAppv2
-Create using Angular and ASP Core API
+Created using Angular and ASP Core API
