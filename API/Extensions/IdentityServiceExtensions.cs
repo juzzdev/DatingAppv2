@@ -10,7 +10,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace API.Extensions
 {
-    public static class IdentityServiceExtentions
+    public static class IdentityServiceExtensions
     {
         public static IServiceCollection AddIdentityServices(this IServiceCollection services, IConfiguration config)
         {
@@ -25,7 +25,8 @@ namespace API.Extensions
                         ValidateAudience = false,
                     };
                 });
-                return services;
+                
+            return services;
         }          
     }
 }
